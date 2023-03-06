@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arsenal', monospace;
+}
+
+body {
+    background: radial-gradient(lightskyblue, lightblue, lightpink)
+}
+
+
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+input[type='text'] {
+    border: none;
+    font-size: 18px;
+    padding: 8px;
+    background-color: aliceblue;
+    margin: 8px;
+    border-radius: 4px;
+}
+
+.input-section button {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 0 4px;
+    margin: 8px;
+
+}
+
+#btn i {
+    font-size: 25px;
+    padding: 6px;
+
+}
+
+.display {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 50px;
+
+
+}
+
+.card {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 30%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4px;
+    /* box-shadow: 4px 4px 4px 4px lightslategray; */
+    background-image: url(https://images.unsplash.com/photo-1574781481375-74a09eba71e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRhcmslMjB3ZWF0aGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: repeat;
+}
+
+
+
+#city {
+    color: white;
+    font-size: 22px;
+}
+
+#temp {
+    color: white;
+    font-size: 18px;
+}
+
+#clouds {
+    color: white;
+    font-size: 18px;
+}
+
+#clouds i {
+    color: white;
+    font-size: 30px;
+}
+
+#windspeed {
+    color: white;
+    font-size: 18px;
+}
+
+#humidity,
+#air {
+    color: white;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .card {
+        width: 100%;
+
+    }
+
+    .display {
+        padding: 40px;
+    }
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000046;
+
+}
